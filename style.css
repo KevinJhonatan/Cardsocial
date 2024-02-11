@@ -1,0 +1,59 @@
+#behind{
+    background-color: black;
+}
+
+#body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(44, 43, 43);
+    border-radius: 30px;
+    margin: 50px 360px 600px 360px;
+    display: grid;
+    grid-auto-flow: initial;
+    initial-letter-align: center;
+}
+
+#photo{
+    margin-top: 20px;
+    margin-left: 190px;
+    width: 200px;
+    border-color: aliceblue;
+    border-style: solid;
+    border: 50px;
+    border-radius: 50%;
+
+}
+
+#name{
+    text-align: center;
+    color: aliceblue;
+}
+
+p{
+    text-align: center;
+}
+
+#p{
+    color: aliceblue;
+}
+
+#location{
+    color: rgb(24, 221, 6);
+}
+
+button{
+    background-color: rgb(65, 65, 65);
+    color: aliceblue;
+    border-radius: 10px;
+    display: grid;
+    grid-auto-flow: dense;
+    padding: 15px;
+    margin: 25px 15px 25px 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 7px 7px 0px;
+    transition: 1s;
+    transform: translateY(-7px);
+}
+
